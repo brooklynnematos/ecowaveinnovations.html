@@ -1,4 +1,120 @@
-    <!DOCTYPE html>
+<style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 100px 20px; 
+    margin-top: -20px;
+    background-image: url("https://media.licdn.com/dms/image/D5612AQGf7Pnpb7trGQ/article-cover_image-shrink_720_1280/0/1681941255002?e=2147483647&v=beta&t=VuEvUaksuL8ulddlx4sVvuyRmZ_bnAJXSoJG3CUvZdY"); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 400px;
+    color: white; 
+}
+
+h1 {
+    font-size: 3em; 
+    text-shadow: rgb(0, 0, 0) 2px 5px;
+}
+
+.mission, .products, .team {
+    padding: 20px;
+    text-align: center;
+}
+
+.product-list, .team-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.product, .employee {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border: 1px solid #ddd;
+    flex: 1 1 200px;
+    max-width: 250px;
+    text-align: center;
+}
+
+.product img, .employee img {
+    max-width: 100%;
+    height: auto;
+}
+
+.breadcrumb {
+    background-color: #347928;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: white;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+    color: #FCCD2A;
+    width: 100%;
+}
+
+.product img, .team img {
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover; 
+}
+
+footer {
+    background-color: #347928; 
+    color: white; 
+    text-align: center; 
+    padding: 20px 0; 
+    position: relative; 
+    bottom: 0; 
+    width: 100%; 
+}
+
+.footer-content {
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 0 20px; 
+}
+
+.employee {
+    background-color: #FFFBE6;
+}
+
+.products {
+    background-color: #FFFBE6;
+}
+
+.team {
+    background-color: #C0EBA6;
+}
+
+    
+</style>
+
+<!DOCTYPE html>
     <html lang="en">
     <head>
         <meta charset="UTF-8">
